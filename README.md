@@ -5,19 +5,19 @@ Implementation-of-ML-model-for-image-classification is a Streamlit app that inte
 
 **Key Features**
 
-** Dual Model Support:**
+**Dual Model Support:**
 
-**MobileNetV2 (ImageNet):** Recognizes 1,000 different classes from the ImageNet dataset, including everyday objects, animals, and vehicles.
+* **MobileNetV2 (ImageNet):** Recognizes 1,000 different classes from the ImageNet dataset, including everyday objects, animals, and vehicles.
 
-**Custom CIFAR-10 Model:** Specializes in classifying images into one of ten specific categories such as airplanes, automobiles, and birds.
+* **Custom CIFAR-10 Model:** Specializes in classifying images into one of ten specific categories such as airplanes, automobiles, and birds.
 
-**Intuitive Interface:**
+* **Intuitive Interface:**
 
-**Navigation Bar:** Seamlessly switch between MobileNetV2 and CIFAR-10 models using a sleek sidebar menu.
+* **Navigation Bar:** Seamlessly switch between MobileNetV2 and CIFAR-10 models using a sleek sidebar menu.
 
-**Real-Time Classification:** Upload an image to receive immediate predictions with confidence scores.
+* **Real-Time Classification:** Upload an image to receive immediate predictions with confidence scores.
 
-**Educational and Practical Use:**
+* **Educational and Practical Use:**
 
 * Ideal for learning about deep learning models and their performance.
 * Useful for practical applications where image classification is needed.
@@ -32,20 +32,25 @@ Implementation-of-ML-model-for-image-classification is a Streamlit app that inte
 **Installation**
 
 **1.Clone the repository:**
+
 git clone https://github.com/JayRathod341997/DeepLensX.git
 cd Implementation-of-ML-model-for-image-classification
 
 **2.Create and activate a virtual environment:**
+
 python -m venv venv
 source venv/bin/activate   # On Windows use venv\Scripts\activate
 
 **3.Install the required packages:**
+
 pip install -r requirements.txt
 
 **4.Start the Streamlit app:**
+
 streamlit run app.py
 
-**5.Open the app:** The app will open in your default web browser. If not, navigate to http://localhost:8501
+**5.Open the app:** 
+The app will open in your default web browser. If not, navigate to http://localhost:8501
 
 **Contributing**
 
@@ -54,4 +59,5 @@ Feel free to fork the repository, open issues, or submit pull requests to contri
 **Acknowledgements**
 
 *Streamlit
+
 *TensorFlow
