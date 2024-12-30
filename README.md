@@ -1,10 +1,9 @@
-# Image-Classification-with-ML
+#Implementation-of-ML-model-for-image-classification
 
-**Implementation-of-ML-model-for-image-classification**
 Implementation-of-ML-model-for-image-classification is a Streamlit app that integrates MobileNetV2 and a CIFAR-10 model for image classification. Users can upload images and receive predictions with confidence scores from either model. It features a sleek navigation bar for easy switching and real-time results, which is ideal for learning and practical use.
 
 **Key Features**
-**Dual Model Support:**
+*** Dual Model Support:**
 
 **MobileNetV2 (ImageNet):** Recognizes 1,000 different classes from the ImageNet dataset, including everyday objects, animals, and vehicles.
 **Custom CIFAR-10 Model:** Specializes in classifying images into one of ten specific categories such as airplanes, automobiles, and birds.
