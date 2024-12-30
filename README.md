@@ -1,4 +1,4 @@
-**Implementation-of-ML-model-for-image-classification**
+# Implementation-of-ML-model-for-image-classification
 
 
 Implementation-of-ML-model-for-image-classification is a Streamlit app that integrates MobileNetV2 and a CIFAR-10 model for image classification. Users can upload images and receive predictions with confidence scores from either model. It features a sleek navigation bar for easy switching and real-time results, which is ideal for learning and practical use.
@@ -33,21 +33,21 @@ Implementation-of-ML-model-for-image-classification is a Streamlit app that inte
 
 **1.Clone the repository:**
 
-git clone https://github.com/JayRathod341997/DeepLensX.git
-cd Implementation-of-ML-model-for-image-classification
+    git clone https://github.com/JayRathod341997/DeepLensX.git
+    cd Implementation-of-ML-model-for-image-classification
 
 **2.Create and activate a virtual environment:**
 
-python -m venv venv
-source venv/bin/activate   # On Windows use venv\Scripts\activate
+    python -m venv venv
+    source venv/bin/activate   # On Windows use venv\Scripts\activate
 
 **3.Install the required packages:**
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 **4.Start the Streamlit app:**
 
-streamlit run app.py
+    streamlit run app.py
 
 **5.Open the app:** 
 The app will open in your default web browser. If not, navigate to http://localhost:8501
@@ -58,6 +58,6 @@ Feel free to fork the repository, open issues, or submit pull requests to contri
 
 **Acknowledgements**
 
-*Streamlit
+* Streamlit
 
-*TensorFlow
+* TensorFlow
